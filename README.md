@@ -757,17 +757,19 @@ output "userdata2" {
 ```
  ### 3.  To Initialize
 
->cd /to/your/project/root/parent/directory
->terraform init
->terraform validate
->terraform plan
->terraform apply
-
+```
+cd /to/your/project/root/parent/directory
+terraform init
+terraform validate
+terraform plan
+terraform apply
+```
 2. To terminate
 
 When you are all done remove all the created resources using
-
->terraform destroy
+```
+terraform destroy
+```
 
 ### Conclusion
 
